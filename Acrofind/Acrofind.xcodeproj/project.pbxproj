@@ -13,6 +13,7 @@
 		654005D61BD4729500DC9E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654005D41BD4729500DC9E20 /* Main.storyboard */; };
 		654005D81BD4729500DC9E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654005D71BD4729500DC9E20 /* Assets.xcassets */; };
 		654005DB1BD4729500DC9E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654005D91BD4729500DC9E20 /* LaunchScreen.storyboard */; };
+		654005E41BD4744A00DC9E20 /* MainViewControllerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 654005E31BD4744A00DC9E20 /* MainViewControllerClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		654005D71BD4729500DC9E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654005DA1BD4729500DC9E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654005DC1BD4729500DC9E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654005E21BD4744A00DC9E20 /* MainViewControllerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllerClass.h; sourceTree = "<group>"; };
+		654005E31BD4744A00DC9E20 /* MainViewControllerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				654005CE1BD4729500DC9E20 /* AppDelegate.h */,
 				654005CF1BD4729500DC9E20 /* AppDelegate.m */,
+				654005E21BD4744A00DC9E20 /* MainViewControllerClass.h */,
+				654005E31BD4744A00DC9E20 /* MainViewControllerClass.m */,
 				654005D11BD4729500DC9E20 /* ViewController.h */,
 				654005D21BD4729500DC9E20 /* ViewController.m */,
 				654005D41BD4729500DC9E20 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				654005D31BD4729500DC9E20 /* ViewController.m in Sources */,
 				654005D01BD4729500DC9E20 /* AppDelegate.m in Sources */,
+				654005E41BD4744A00DC9E20 /* MainViewControllerClass.m in Sources */,
 				654005CD1BD4729500DC9E20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
